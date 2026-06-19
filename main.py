@@ -92,7 +92,7 @@ Question:
 {question}
 """
 
-    response = groq_client.chat.completions.create(
+    response =client.chat.completions.create(
         messages=[
             {
                 "role": "user",
