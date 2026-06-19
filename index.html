@@ -383,8 +383,8 @@ async function uploadPDF(){
         "Uploading PDF...";
 
     const response =
-        await fetch(
-            "http://127.0.0.1:8000/upload",
+        await fetch
+            ("https://pdf-chatbot-o54h.onrender.com/upload", 
             {
                 method:"POST",
                 body:formData
@@ -436,8 +436,8 @@ async function askQuestion(){
         chatArea.scrollHeight;
 
     const response =
-        await fetch(
-            "http://127.0.0.1:8000/ask",
+        await fetch
+            ("https://pdf-chatbot-o54h.onrender.com/ask", 
             {
                 method:"POST",
 
