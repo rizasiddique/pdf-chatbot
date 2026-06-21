@@ -10,7 +10,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://merry-moxie-a00593.netlify.app"
+        "https://documind-ai-riza.netlify.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
